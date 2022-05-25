@@ -1,7 +1,17 @@
 <template>
-  <div class="hello">
-    <h1>VideoReport</h1>
-
+  <div class="card">
+    <p class="time">3 mins process</p>
+        <img src="../assets/video-icon.png" alt="">
+        <h2>give your new connections
+a video ShoutOut</h2>
+        <p>We’ll walk you through a few short steps to create a video testimonial and post it to your preferred social channel.</p>
+        <button>record a ShoutOut video now <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        </div>
   </div>
 </template>
 
@@ -15,18 +25,56 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.card {
+    background-color: #fff;
+    width: 490px;
+    height: 500px;
+    border-radius: 8px;
+    color: #3C47F1;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.time {
+    background-color: #2EDCDC;
+    width: 122px;
+    height: 24px;
+    margin: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+img {
+    margin-top: 33px;
 }
-a {
-  color: #42b983;
+h2 {
+    width: 326px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 35px;
+}
+p {
+    width: 332px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 23px;
+}
+button {
+    background-color: #3C47F1;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    width: 298px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.icons {
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    width: 120px;
+    margin: auto;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
 }
 </style>

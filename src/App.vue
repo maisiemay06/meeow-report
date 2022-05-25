@@ -6,7 +6,9 @@
 <h1>OR</h1>
   <VideoReport />
   </div>
+  <div class="footer">
   <a href="">Return to calendar</a>
+  </div>
 </template>
 
 <script>
@@ -17,7 +19,7 @@ export default {
   name: 'App',
   components: {
     WrittenReport,
-    VideoReport
+    VideoReport,
   }
 }
 </script>
@@ -45,11 +47,37 @@ font-weight: 600;
 }
 p {
   font-size: 1rem;
+  margin-top: 36px;
+}
+.reports {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 53px;
+}
+.footer {
+  margin-top: 43px;
 }
 a {
   font-size: 0.875rem;
   color: #fff;
   font-weight: 500;
+}
+
+.card {
+    background-color: #fff;
+    width: 490px;
+    height: 500px;
+    border-radius: 8px;
+    color: #3C47F1;
+}
+.time {
+    background-color: #2EDCDC;
+    width: 122px;
+    height: 24px;
+    margin: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 </style>
