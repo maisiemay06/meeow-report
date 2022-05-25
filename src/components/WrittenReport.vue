@@ -57,6 +57,11 @@ button {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 29px;
+    transition: 0.1s ease-in;
+}
+button:hover {
+    background-color: #182AC6;
+    cursor: pointer;
 }
 
 .icons {

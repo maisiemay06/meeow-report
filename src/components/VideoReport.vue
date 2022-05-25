@@ -61,6 +61,11 @@ button {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 32px;
+    transition: 0.1s ease-in;
+}
+button:hover {
+    background-color: #182AC6;
+    cursor: pointer;
 }
 .fa-arrow-up-right-from-square {
     margin-left: 10px;
@@ -74,4 +79,5 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
 </style>
