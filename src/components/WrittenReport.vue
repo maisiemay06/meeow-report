@@ -22,6 +22,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.time {
+    background-color: #2EDCDC;
+    width: 122px;
+    height: 24px;
+    margin: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
 img {
     margin-top: 33px;
 }
@@ -50,6 +58,7 @@ button {
     font-weight: 600;
     margin-top: 29px;
 }
+
 .icons {
     color: #EEEEEE;
     font-size: 1.5rem;

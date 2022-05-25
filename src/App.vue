@@ -63,7 +63,6 @@ a {
   color: #fff;
   font-weight: 500;
 }
-
 .card {
     background-color: #fff;
     width: 490px;
@@ -71,13 +70,10 @@ a {
     border-radius: 8px;
     color: #3C47F1;
 }
-.time {
-    background-color: #2EDCDC;
-    width: 122px;
-    height: 24px;
-    margin: auto;
-    font-size: 0.875rem;
-    font-weight: 600;
+@media only screen and (max-width: 1400px) {
+  .card {
+    width: 40%;
+  }
 }
 
 </style>

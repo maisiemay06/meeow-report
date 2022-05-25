@@ -25,13 +25,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.card {
-    background-color: #fff;
-    width: 490px;
-    height: 500px;
-    border-radius: 8px;
-    color: #3C47F1;
-}
+
 .time {
     background-color: #2EDCDC;
     width: 122px;
@@ -67,6 +61,9 @@ button {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 32px;
+}
+.fa-arrow-up-right-from-square {
+    margin-left: 10px;
 }
 .icons {
     color: #EEEEEE;
